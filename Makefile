@@ -3,7 +3,7 @@
 SITE_REMOTE ?= www/
 SITE_TITLE ?= Dalregementets IF
 SUBTITLE ?=
-KEYWORDS_BASE ?= idrott, fäktning, M5K, modern femkamp, dalarna, krav maga, tennis, skidor, skidskytte, OL skytte
+KEYWORDS_BASE ?= idrott, förening, idrottsförening, falun, dalarna
 SITE_RSYNC_OPTS ?= -O -e "ssh -i deploy_key"
 
 .PHONY: help build deploy clean
