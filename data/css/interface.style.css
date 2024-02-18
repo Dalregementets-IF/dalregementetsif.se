@@ -1471,3 +1471,23 @@ height: 15px;
 #calendar .fc-footer-toolbar .fc-toolbar-chunk {
 	margin: 1em;
 }
+#calendar-modal {
+	min-width: 300px;
+	border: 1px solid var(--fc-border-color);
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+	border-radius: 5px;
+}
+#calendar-modal button {
+	display: block;
+	margin: 0 auto;
+	background-color: #2563aa;
+	border-color: rgba(0,0,0,0.1);
+	color: var(--fc-button-text-color);
+	border-radius: 0.25em;
+	padding: 0.4em 0.65em;
+	font-family: inherit;
+}
+#calendar-modal h3 {
+	border-bottom: 3px solid #FECD51;
+	margin-bottom: 10px;
+}

@@ -1,6 +1,17 @@
 /* vim: set noexpandtab ts=2 sw=2: */
+function pad(val) {
+	if (val < 10) {
+		return '0' + val
+	} else {
+		return val
+	}
+}
 function buildCalendar(dlpath) {
-	document.addEventListener('DOMContentLoaded', function() {
+	document.addEventListener('DOMContentLoaded', () => {
+		const dialog = document.querySelector('#calendar-modal')
+		const dialogTitle = document.querySelector('#calendar-modal h3')
+		const dialogTime = document.querySelector('#calendar-modal p')
+		document.querySelector('#calendar-modal button').addEventListener('click', () => {dialog.close()})
 		const cal = new FullCalendar.Calendar(document.getElementById('calendar'), {
 			headerToolbar: {
 				start: 'prev,next today',
@@ -16,9 +27,24 @@ function buildCalendar(dlpath) {
 			initialView: 'dayGridMonth',
 			weekNumbers: true,
 			locale: 'sv',
-			eventClick: function (info) {alert('Event: ' + info.event.title)},
-			eventMouseEnter: function (mouseEnterInfo) { },
-			eventMouseLeave: function (mouseLeaveInfo) { },
+			eventClick: (info) => {
+				let startDate = cal.formatDate(info.event.start, {})
+				let time = startDate + '\u{2003}'
+				if (info.event.allDay) {
+					time += 'Hela dagen'
+				} else {
+					time += pad(info.event.start.getHours()) + ':' + pad(info.event.start.getMinutes())
+					if (info.event.end !== null) {
+					  let endDate = cal.formatDate(info.event.end, {})
+						time += '\u{2013}'
+						if (startDate !== endDate) time += endDate + ' '
+					  time += pad(info.event.end.getHours()) + ':' + pad(info.event.end.getMinutes())
+					}
+				}
+				dialogTitle.innerText = info.event.title
+				dialogTime.innerText = time
+				dialog.showModal()
+			},
 		})
 		cal.render()
 		$.get(dlpath).then(function (data) {
