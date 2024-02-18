@@ -28,7 +28,7 @@ build: $(patsubst $(SRC)/%.html,build/%.html,$(PAGES)) \
 	build/filebrowser-footer.html
 
 deploy: build
-	rsync -rLtvz $(SITE_RSYNC_OPTS) build/ data/ $(SITE_REMOTE)
+	rsync -rLvzc $(SITE_RSYNC_OPTS) build/ data/ $(SITE_REMOTE)
 
 clean:
 	rm -rf build
