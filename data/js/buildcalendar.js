@@ -1,4 +1,4 @@
-/* vim: set noexpandtab t s=4 sw=4: */
+/* vim: set noexpandtab ts=2 sw=2: */
 function buildCalendar(dlpath) {
 	document.addEventListener('DOMContentLoaded', function() {
 		const cal = new FullCalendar.Calendar(document.getElementById('calendar'), {
