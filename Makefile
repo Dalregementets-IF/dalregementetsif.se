@@ -23,6 +23,7 @@ help:
 build: $(patsubst $(SRC)/%.html,build/%.html,$(PAGES)) \
 	$(patsubst $(IMG)/%.png,build/img/%.png,$(IMAGES)) \
 	$(patsubst $(ICO)/%.png,build/img/icons/%.png,$(ICONS)) \
+	build/js/calendar.js \
 	build/filebrowser-header.html \
 	build/filebrowser-footer.html
 
@@ -85,3 +86,6 @@ build/img/icons/%.png: $(ICO)/%.png
 	mkdir -p build/img/icons
 	cp $(ICO)/$(@F) $@; \
 	sh webp.sh $@; \
+
+build/js/calendar.js: data/js/buildcalendar.js
+	sh calendar.sh; \
