@@ -64,7 +64,6 @@ function buildCalendar(dlpath) {
 						if (rrule.freq) res.rrule.freq = rrule.freq
 						if (rrule.parts.BYDAY) res.rrule.byweekday = rrule.parts.BYDAY
 						if (rrule.until) res.rrule.until = rrule.until.toString()
-						if (rrule.until) res.rrule.until = rrule.until.toString()
 						if (rrule.interval) res.rrule.interval = rrule.interval
 						var dtstart = item.getFirstPropertyValue('dtstart').toString()
 						var dtend = item.getFirstPropertyValue('dtend').toString()
