@@ -1426,6 +1426,14 @@ height: 15px;
 	display: block;
 }
 
+/* Error pages
+----------------------------------------------- */
+img.error-shield {
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+}
+
 /* File icons
 ----------------------------------------------- */
 .icons {
