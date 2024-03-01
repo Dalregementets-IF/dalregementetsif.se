@@ -557,16 +557,16 @@ details > math {
 	background-color: rgb(217,237,247);
 }
 .alert.warning .inner {
-  border: 1px solid rgb(238,211,215);
-  background-color: rgb(242,222,222);
+	border: 1px solid rgb(238,211,215);
+	background-color: rgb(242,222,222);
 }
 .alert.green .inner {
-  border: 1px solid rgb(214,233,198);
-  background-color: rgb(223,240,216);
+	border: 1px solid rgb(214,233,198);
+	background-color: rgb(223,240,216);
 }
 .alert.yellow .inner {
-  border: 1px solid rgb(251,238,213);
-  background-color: rgb(252,248,227);
+	border: 1px solid rgb(251,238,213);
+	background-color: rgb(252,248,227);
 }
 
 /* =Header
@@ -1433,7 +1433,7 @@ height: 15px;
 	flex-wrap: wrap;
 	align-content: stretch;
 	/*border-bottom: 4px solid #FECD51;*/
-    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
 	margin-bottom: 15px;
 }
 .competition-row > div:nth-of-type(1) { width: 65%; }
