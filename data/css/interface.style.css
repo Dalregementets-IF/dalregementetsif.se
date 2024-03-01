@@ -1426,6 +1426,45 @@ height: 15px;
 	display: block;
 }
 
+/* Competitions
+----------------------------------------------- */
+.competition-row {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+	/*border-bottom: 4px solid #FECD51;*/
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+	margin-bottom: 15px;
+}
+.competition-row > div:nth-of-type(1) { width: 65%; }
+.competition-row a.button {
+	display: inline-block;
+	margin-top: 5px;
+	background-color: #2563aa;
+	border-color: rgba(0,0,0,0.1);
+	color: #fff;
+	border-radius: 0.25em;
+	padding: 0.4em 0.65em;
+	font-family: inherit;
+}
+.competition-row h2 a { color: #333; }
+.competition-row h2 a:hover { color: #e97d20; }
+.competition-row .pictogram {
+	float: left;
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+}
+.competition-row .pg-weightlifting {background-image: url("/img/pictograms/weightlifting_pictogram-35.webp")}
+.competition-row .pg-biathlon {background-image: url("/img/pictograms/biathlon_pictogram-35.webp")}
+.competition-row .pg-modern_pentathlon {background-image: url("/img/pictograms/modern_pentathlon_pictogram-35.webp")}
+.competition-row .pg-fencing {background-image: url("/img/pictograms/fencing_pictogram-35.webp")}
+.competition-row .pg-athletics {background-image: url("/img/pictograms/athletics_pictogram-35.webp")}
+.competition-row .pg-shooting {background-image: url("/img/pictograms/shooting_pictogram-35.webp")}
+.competition-row .pg-cross_country_skiing {background-image: url("/img/pictograms/cross_country_skiing_pictogram-35.webp")}
+.competition-row .pg-swimming {background-image: url("/img/pictograms/swimming_pictogram-35.webp")}
+.competition-row .pg-triathlon {background-image: url("/img/pictograms/triathlon_pictogram-35.webp")}
+
 /* Error pages
 ----------------------------------------------- */
 img.error-shield {

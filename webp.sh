@@ -17,4 +17,7 @@ case "$bn" in
 *side*)
   cwebp -q 80 -o "${bn}-200.webp" -resize 200 0 "$1"
   ;;
+*pictogram*)
+  cwebp -q 80 -o "${bn}-35.webp" -resize 35 0 "$1"
+  ;;
 esac

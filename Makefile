@@ -11,11 +11,13 @@ SITE_RSYNC_OPTS ?= -O -e "ssh -i deploy_key"
 SRC = src
 IMG = data/img
 ICO = data/img/icons
+PIC = data/img/pictograms
 TMPL = templates
 #PAGES = $(shell git ls-tree HEAD --name-only -- $(SRC)/*.html 2>/dev/null)
 PAGES = $(shell ls -1 -- $(SRC)/*.html 2>/dev/null)
 IMAGES = $(shell ls -1 -- $(IMG)/*.png 2>/dev/null)
 ICONS = $(shell ls -1 -- $(IMG)/icons/*.png 2>/dev/null)
+PICTOGRAMS = $(shell ls -1 -- $(IMG)/pictograms/*.png 2>/dev/null)
 
 help:
 	$(info make build|deploy|clean)
@@ -23,6 +25,7 @@ help:
 build: $(patsubst $(SRC)/%.html,build/%.html,$(PAGES)) \
 	$(patsubst $(IMG)/%.png,build/img/%.png,$(IMAGES)) \
 	$(patsubst $(ICO)/%.png,build/img/icons/%.png,$(ICONS)) \
+	$(patsubst $(PIC)/%.png,build/img/pictograms/%.png,$(PICTOGRAMS)) \
 	build/js/calendar.js \
 	build/filebrowser-header.html \
 	build/filebrowser-footer.html
@@ -85,6 +88,11 @@ build/img/%.png: $(IMG)/%.png
 build/img/icons/%.png: $(ICO)/%.png
 	mkdir -p build/img/icons
 	cp $(ICO)/$(@F) $@; \
+	sh webp.sh $@; \
+
+build/img/pictograms/%.png: $(PIC)/%.png
+	mkdir -p build/img/pictograms
+	cp $(PIC)/$(@F) $@; \
 	sh webp.sh $@; \
 
 build/js/calendar.js: data/js/buildcalendar.js
