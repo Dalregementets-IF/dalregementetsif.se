@@ -19,7 +19,7 @@ KEYWORDS="nyckelord, mellan, komman"
 ```
 Nyckelorden från `KEYWORDS` är i tillägg till de generella nyckelord definierade
 i `Makefile`. `PAGE_TITLE` i exemplet ovan kommer resultera i
-`<title>Exempeltitel · Fäktning/M5K i Falun</title>` och `<h1>Exempeltitel<h1>`.
+`<title>Exempeltitel · Dalregementets IF</title>` och `<h1>Exempeltitel<h1>`.
 Om `BANNER` eller `SIDEIMAGE` inte uppges kommer respektive element inte skapas;
 saknas bildfilen kommer elementet skapas och ta en viss plats men vara osynligt.
 
