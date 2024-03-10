@@ -62,3 +62,5 @@ Servern hanterar för närvarande:
 
 * styrelse.html: `<table>` där `<tr>` element skapas från TSV fil.
 * index.html: promobox `<div>` som växlas "av/på" beroende på om PDF finns.
+* tavlingar.html: lista på tävlingar med info som skapas från TSV fil.
+* sektionssidor: innehåll konverteras från markdown filer.
