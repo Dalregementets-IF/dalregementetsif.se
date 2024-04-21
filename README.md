@@ -64,3 +64,4 @@ Servern hanterar för närvarande:
 * index.html: promobox `<div>` som växlas "av/på" beroende på om PDF finns.
 * tavlingar.html: lista på tävlingar med info som skapas från TSV fil.
 * sektionssidor: innehåll konverteras från markdown filer.
+* forening.html: innehåll konverteras från markdown fil.
