@@ -1,8 +1,8 @@
 #!/usr/bin/make -f
 
 SITE_REMOTE ?= www/
-SITE_TITLE ?= Dalregementets IF
-SUBTITLE ?=
+export SITE_TITLE ?= Dalregementets IF
+export SUBTITLE ?=
 KEYWORDS_BASE ?= idrott, förening, idrottsförening, falun, dalarna
 SITE_RSYNC_OPTS ?= -O -e "ssh -i deploy_key"
 
@@ -38,13 +38,8 @@ clean:
 
 build/%.html: $(SRC)/%.html $(SRC)/%.env $(addprefix $(TMPL)/,$(addsuffix .html,header banner footer))
 	mkdir -p build
-	SITE_TITLE="$(SITE_TITLE)"; \
-	export SITE_TITLE; \
 	export $(shell grep -v '^#' $(SRC)/$*.env | tr '\n' '\0' | xargs -0); \
-	KEYWORDS="$(KEYWORDS_BASE), $$KEYWORDS"; \
-	export KEYWORDS; \
-	SUBTITLE="$(SUBTITLE)"; \
-	export SUBTITLE; \
+	export KEYWORDS="$(KEYWORDS_BASE), $$KEYWORDS"; \
 	[ -z "$$PAGE_TITLE" -o "$*" = "index" ] && TITLE="$(SITE_TITLE)" || TITLE="$$PAGE_TITLE · $(SITE_TITLE)"; \
 	export TITLE; \
 	[ -z "$$BANNER" ] && cp $(TMPL)/header.html $@.tmp1 || sed -e '/<!-- BANNER -->/{r $(TMPL)/banner.html' -e 'd}' $(TMPL)/header.html > $@.tmp1; \
@@ -59,16 +54,9 @@ build/%.html: $(SRC)/%.html $(SRC)/%.env $(addprefix $(TMPL)/,$(addsuffix .html,
 
 build/filebrowser-header.html: $(addprefix $(TMPL)/,$(addsuffix .html,header))
 	mkdir -p build
-	SITE_TITLE="$(SITE_TITLE)"; \
-	export SITE_TITLE; \
-	PAGE_TITLE="$(SITE_TITLE)"; \
-	export PAGE_TITLE; \
-	SUBTITLE="$(SUBTITLE)"; \
-	export SUBTITLE; \
-	TITLE="$(SITE_TITLE)"; \
-	export TITLE; \
-	KEYWORDS="$(KEYWORDS_BASE)"; \
-	export KEYWORDS; \
+	export PAGE_TITLE="$(SITE_TITLE)"; \
+	export TITLE="$(SITE_TITLE)"; \
+	export KEYWORDS="$(KEYWORDS_BASE)"; \
 	sed -e 's/\[\[ BANNER \]\]//' $(TMPL)/header.html > $@.tmp; \
 	sed -i -e '/<!-- EXTRACSS -->/{r $(TMPL)/filebrowser.html' -e 'd}' $@.tmp; \
 	sed -i -e 's/id="content"/id="filebrowser"/' $@.tmp; \
