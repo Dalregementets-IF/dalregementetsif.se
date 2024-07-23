@@ -1,0 +1,11 @@
+; vim: set noexpandtab ts=20 sw=20:
+;
+; Rader som börjar med ; ignoreras som kommentarer.
+; Viktigt! Separera fälten med en (1) tabb!
+; Viktigt! Skriv '&amp;' istället för '&'!
+; '&ndash' blir ett typografiskt korrekt "endash" streck för datum.
+;
+; Tävlingsnamn	datum	plats	sport	klasser	länk
+Masthugget Cup III	16 mars	Göteborg	Fäktning	U11 U13 U15	https://fencing.ophardt.online/sv/widget/event/27961
+2024 Challenge Eugène Fillol	16 mars&ndash;17 mars	Stockholm	Fäktning	Senior, värja herrar, värja damer	https://fencing.ophardt.online/sv/widget/event/27067
+Test	29 februari	Falun	Triathlon	Senior	

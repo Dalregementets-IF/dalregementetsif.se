@@ -1,0 +1,6 @@
+title: Löpning & Triathlon
+description:
+keywords: löpning, triathlon, simning
+sideimages: qr-lopning
+flags: banner nostatic
+

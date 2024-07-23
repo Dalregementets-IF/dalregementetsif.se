@@ -1,3 +1,9 @@
+title: Åtkomst förbjuden
+description:
+keywords:
+sideimages:
+flags:
+
 <div class="entry-content clearfix">
   <img src="/img/403.webp" class="error-shield">
 </div>

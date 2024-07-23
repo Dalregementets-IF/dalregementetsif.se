@@ -1,0 +1,6 @@
+title: OL-skytte
+description:
+keywords: OL skytte, fälttävlan, orientering, skytte, fältidrott
+sideimages: qr-olskytte
+flags: banner nostatic
+

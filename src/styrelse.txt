@@ -1,0 +1,10 @@
+title: Styrelsen
+description:
+keywords: styrelse, sektionsledning, ledamöter, ordförande, sekreterare, styrelsemedlemmar
+sideimages:
+flags: 
+
+<table>
+  <!-- INOSYNC BEGIN -->
+  <!-- INOSYNC END -->
+</table>

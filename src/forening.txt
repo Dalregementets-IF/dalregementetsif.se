@@ -1,0 +1,6 @@
+title: Om föreningen
+description: Dalregementets IF är en förening med flera sektioner för olika idrotter med medaljörer i nationella och internationella mästerskap
+keywords: fäktning, M5K, modern femkamp, krav maga, tennis, skidor, skidskytte, OL skytte, fälttävlan, löpning, triathlon, biathlon
+sideimages: qr-forening
+flags: banner nostatic
+

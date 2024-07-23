@@ -1,3 +1,9 @@
+title: Bli medlem
+description:
+keywords: medlemskap, betalning, avgifter, swish, bankgiro
+sideimages:
+flags: banner
+
 <div id="primary">
   <div class="entry-content clearfix">
     <h2 id="medlemsavgift">Medlemsavgifter</h2>

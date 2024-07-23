@@ -1,0 +1,6 @@
+title: Atlet
+description:
+keywords: gym, tyngdlyftning, atlet
+sideimages: qr-atlet
+flags: banner nostatic
+

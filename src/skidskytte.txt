@@ -1,0 +1,6 @@
+title: Skidskytte
+description:
+keywords: skidskytte, skytte, skidor, skidåkning
+sideimages: qr-skidskytte
+flags: banner nostatic
+
