@@ -48,7 +48,7 @@ else
     content=$(tail -n+7 "$srcfile")
 fi
 
-if [ -n $sideimages ]; then
+if [ -n "$sideimages" ]; then
     tmp="<div id=\"primary\">
   <div class=\"entry-content clearfix\">
     $content
