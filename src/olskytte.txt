@@ -1,3 +1,4 @@
+# vim: set ts=2 sw=2
 title: OL-skytte
 description:
 keywords: OL skytte, fälttävlan, orientering, skytte, fältidrott

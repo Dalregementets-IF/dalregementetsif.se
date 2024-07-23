@@ -45,7 +45,7 @@ if [ $nostatic -eq 1 ]; then
     <!-- INOSYNC BEGIN -->
     <!-- INOSYNC END -->"
 else
-    content=$(tail -n+7 "$srcfile")
+    content=$(tail -n+8 "$srcfile")
 fi
 
 if [ -n "$sideimages" ]; then
