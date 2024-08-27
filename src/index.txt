@@ -11,14 +11,14 @@ flags: notitle
 <div class="widget widget_recent_work">
   <div class="column clearfix">
     <div class="one-fourth">
-      <a title="Löpning & Triathlon" href="/lopning.html">
+      <a title="Triathlon" href="/triathlon.html">
         <div class="paintoverlay">
           <img width="474" height="342" src="img/hardhat-474x342.webp" alt="" loading="lazy">
           <img src="img/paintsplashborder-gallery-1.webp" alt="">
         </div>
       </a>
-      <h3 class="custom-gallery-title"><a href="/lopning.html" title="">Löpning & Triathlon</a></h3>
-      <p>Se information om sektionen för Löpning &amp; Triathlon.</p>
+      <h3 class="custom-gallery-title"><a href="/triathlon.html" title="">Triathlon</a></h3>
+      <p>Se information om Triathlon.</p>
     </div>
     <div class="one-fourth">
       <a title="" href="/atlet.html">
@@ -108,6 +108,20 @@ flags: notitle
       </a>
       <h3 class="custom-gallery-title"><a href="/skidskytte.html" title="">Skidskytte</a></h3>
       <p>Se information om Skidskyttesektionen.</p>
+    </div>
+  </div>
+</div>
+<div class="widget widget_recent_work">
+  <div class="column clearfix">
+    <div class="one-fourth">
+      <a href="/simning.html" title="">
+        <div class="paintoverlay">
+          <img width="474" height="342" src="img/hardhat-474x342.webp" alt="" loading="lazy">
+          <img src="img/paintsplashborder-gallery-2.webp" alt="">
+        </div>
+      </a>
+      <h3 class="custom-gallery-title"><a href="/simning.html" title="">Simning</a></h3>
+      <p>Se information om simningen.</p>
     </div>
   </div>
 </div>

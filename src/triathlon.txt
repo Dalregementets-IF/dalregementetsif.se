@@ -1,0 +1,7 @@
+# vim: set ts=2 sw=2 :
+title: Triathlon
+description:
+keywords: triathlon
+sideimages: qr-triathlon
+flags: banner nostatic
+

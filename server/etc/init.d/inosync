@@ -7,7 +7,8 @@ command_args="kallelse,/www/dalregementetsif.se/dropbox_sync/kallelse.pdf,/www/d
               styrelse,/www/dalregementetsif.se/dropbox_sync/styrelse.txt,/www/dalregementetsif.se/styrelse.html
               tavlingar,/www/dalregementetsif.se/dropbox_sync/tavlingar.txt,/www/dalregementetsif.se/tavlingar.html
               markdown,/www/dalregementetsif.se/dropbox_sync/atlet.md,/www/dalregementetsif.se/atlet.html
-              markdown,/www/dalregementetsif.se/dropbox_sync/lopning.md,/www/dalregementetsif.se/lopning.html
+              markdown,/www/dalregementetsif.se/dropbox_sync/triathlon.md,/www/dalregementetsif.se/triathlon.html
+              markdown,/www/dalregementetsif.se/dropbox_sync/simning.md,/www/dalregementetsif.se/simning.html
               markdown,/www/dalregementetsif.se/dropbox_sync/olskytte.md,/www/dalregementetsif.se/olskytte.html
               markdown,/www/dalregementetsif.se/dropbox_sync/skidskytte.md,/www/dalregementetsif.se/skidskytte.html
               markdown,/www/dalregementetsif.se/dropbox_sync/tennis.md,/www/dalregementetsif.se/tennis.html
