@@ -57,7 +57,8 @@ if [ -n "$sideimages" ]; then
 </div>
 <div id=\"secondary\">"
     for img in $sideimages; do
-        tmp="$tmp<img alt=\"\" loading=\"lazy\" src=\"img/$img-200.webp\">"
+        tmp="$tmp
+    <img alt=\"\" loading=\"lazy\" src=\"img/$img-200.webp\">"
     done
     tmp="$tmp
 </div>"
