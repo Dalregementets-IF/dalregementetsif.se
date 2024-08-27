@@ -36,7 +36,8 @@ else
     export TITLE="$PAGE_TITLE · $SITE_TITLE"
 fi
 if [ $banner -eq 1 ]; then
-    sed -i -e '/<!-- BANNER -->/{r $(TMPL)/banner.html' -e 'd}' build/header.tmp
+    export BANNER="banner-$basename"
+    sed -i -e "/<!-- BANNER -->/{r ${TMPL}/banner.html" -e 'd}' build/header.tmp
 fi
 envsubst < build/header.tmp > "$destfile"
 
