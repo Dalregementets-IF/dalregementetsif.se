@@ -6,13 +6,13 @@ pidfile="/run/$RC_SVCNAME.pid"
 command_args="kallelse,/www/dalregementetsif.se/dropbox_sync/kallelse.pdf,/www/dalregementetsif.se/index.html
               styrelse,/www/dalregementetsif.se/dropbox_sync/styrelse.txt,/www/dalregementetsif.se/styrelse.html
               tavlingar,/www/dalregementetsif.se/dropbox_sync/tavlingar.txt,/www/dalregementetsif.se/tavlingar.html
-              markdown,/www/dalregementetsif.se/dropbox_sync/atlet.md,/www/dalregementetsif.se/atlet.html
-              markdown,/www/dalregementetsif.se/dropbox_sync/triathlon.md,/www/dalregementetsif.se/triathlon.html
-              markdown,/www/dalregementetsif.se/dropbox_sync/simning.md,/www/dalregementetsif.se/simning.html
-              markdown,/www/dalregementetsif.se/dropbox_sync/olskytte.md,/www/dalregementetsif.se/olskytte.html
-              markdown,/www/dalregementetsif.se/dropbox_sync/skidskytte.md,/www/dalregementetsif.se/skidskytte.html
-              markdown,/www/dalregementetsif.se/dropbox_sync/tennis.md,/www/dalregementetsif.se/tennis.html
-              markdown,/www/dalregementetsif.se/dropbox_sync/forening.md,/www/dalregementetsif.se/forening.html
+              markdown,/www/dalregementetsif.se/dropbox_sync/atlet.txt,/www/dalregementetsif.se/atlet.html
+              markdown,/www/dalregementetsif.se/dropbox_sync/triathlon.txt,/www/dalregementetsif.se/triathlon.html
+              markdown,/www/dalregementetsif.se/dropbox_sync/simning.txt,/www/dalregementetsif.se/simning.html
+              markdown,/www/dalregementetsif.se/dropbox_sync/olskytte.txt,/www/dalregementetsif.se/olskytte.html
+              markdown,/www/dalregementetsif.se/dropbox_sync/skidskytte.txt,/www/dalregementetsif.se/skidskytte.html
+              markdown,/www/dalregementetsif.se/dropbox_sync/tennis.txt,/www/dalregementetsif.se/tennis.html
+              markdown,/www/dalregementetsif.se/dropbox_sync/forening.txt,/www/dalregementetsif.se/forening.html
               'markdown,/www/dalregementetsif.se/dropbox_sync/!Markdown guide.md,/www/dalregementetsif.se/md.html'"
 command_background=true
 command_user="deploy:deploy"
