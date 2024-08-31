@@ -13,7 +13,7 @@ flags: notitle
     <div class="one-fourth">
       <a title="Triathlon" href="/triathlon.html">
         <div class="paintoverlay">
-          <img width="474" height="342" src="img/hardhat-474x342.webp" alt="" loading="lazy">
+          <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
           <img src="img/paintsplashborder-gallery-1.webp" alt="">
         </div>
       </a>
@@ -23,7 +23,7 @@ flags: notitle
     <div class="one-fourth">
       <a title="" href="/atlet.html">
         <div class="paintoverlay">
-          <img width="474" height="342" src="img/hardhat-474x342.webp" alt="" loading="lazy">
+          <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
           <img src="img/paintsplashborder-gallery-2.webp" alt="">
         </div>
       </a>
@@ -48,7 +48,7 @@ flags: notitle
     <div class="one-fourth">
       <a title="" href="/tennis.html">
         <div class="paintoverlay">
-          <img width="474" height="342" src="img/hardhat-474x342.webp" alt="" loading="lazy">
+          <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
           <img src="img/paintsplashborder-gallery-1.webp" alt="">
         </div>
       </a>
@@ -62,7 +62,7 @@ flags: notitle
     <div class="one-fourth">
       <a href="https://www.facebook.com/kravmagadalarna" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
         <div class="paintoverlay">
-          <img width="474" height="342" src="img/hardhat-474x342.webp" alt="" loading="lazy">
+          <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
           <img src="img/paintsplashborder-gallery-2.webp" alt="">
         </div>
       </a>
@@ -77,7 +77,7 @@ flags: notitle
     <div class="one-fourth">
       <a href="https://www.facebook.com/groups/233643798553944" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
         <div class="paintoverlay">
-          <img width="474" height="342" src="img/hardhat-474x342.webp" alt="" loading="lazy">
+          <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
           <img src="img/paintsplashborder-gallery-3.webp" alt="">
         </div>
       </a>
@@ -92,7 +92,7 @@ flags: notitle
     <div class="one-fourth clearfix-half">
       <a title="" href="/olskytte.html">
         <div class="paintoverlay">
-          <img width="474" height="342" src="img/hardhat-474x342.webp" alt="" loading="lazy">
+          <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
           <img src="img/paintsplashborder-gallery-1.webp" alt="">
         </div>
       </a>
@@ -102,7 +102,7 @@ flags: notitle
     <div class="one-fourth">
       <a title="" href="/skidskytte.html">
         <div class="paintoverlay">
-          <img width="474" height="342" src="img/hardhat-474x342.webp" alt="" loading="lazy">
+          <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
           <img src="img/paintsplashborder-gallery-3.webp" alt="">
         </div>
       </a>
@@ -116,7 +116,7 @@ flags: notitle
     <div class="one-fourth">
       <a href="/simning.html" title="">
         <div class="paintoverlay">
-          <img width="474" height="342" src="img/hardhat-474x342.webp" alt="" loading="lazy">
+          <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
           <img src="img/paintsplashborder-gallery-2.webp" alt="">
         </div>
       </a>
