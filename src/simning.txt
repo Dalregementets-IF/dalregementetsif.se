@@ -2,6 +2,6 @@
 title: Simning
 description:
 keywords: simning
-sideimages: qr-triathlon
+sideimages: qr-simning
 flags: banner nostatic
 
