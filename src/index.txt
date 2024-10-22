@@ -102,7 +102,7 @@ flags: notitle
     <div class="one-fourth">
       <a title="" href="/skidskytte.html">
         <div class="paintoverlay">
-          <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
+          <img width="474" height="342" src="img/skidskytte-474x342.webp" alt="" loading="lazy">
           <img src="img/paintsplashborder-gallery-3.webp" alt="">
         </div>
       </a>
