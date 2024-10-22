@@ -75,19 +75,14 @@ flags: notitle
       <p>Se information om simningen.</p>
     </div>
     <div class="one-fourth">
-      <a href="https://www.facebook.com/groups/233643798553944" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
+      <a href="/skidor.html" title="">
         <div class="paintoverlay">
           <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
           <img src="img/paintsplashborder-gallery-3.webp" alt="">
         </div>
       </a>
-      <h3 class="custom-gallery-title"><a href="https://www.facebook.com/groups/233643798553944" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
-        Skidor
-        <span class="icon external-link-icon">
-          <i class="fa fa-external-link" aria-hidden="true"></i>
-        </span>
-      </a></h3>
-      <p>Fortsätt till Skidsektionens Facebook-sida.</p>
+      <h3 class="custom-gallery-title"><a href="/skidor.html" title="">Skidor</a></h3>
+      <p>Se information om Skidsektionen.</p>
     </div>
     <div class="one-fourth">
       <a title="" href="/skidskytte.html">
