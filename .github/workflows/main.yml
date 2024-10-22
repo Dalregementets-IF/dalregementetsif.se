@@ -7,9 +7,12 @@ on:
     paths:
       - ".github/workflows/main.yml"
       - "**.html"
-      - "**.env"
+      - "**.txt"
       - "**.css"
       - "**.png"
+      - "**.webp"
+      - "**.jpg"
+      - "**.jpeg"
       - "**.js"
 jobs:
   deploy:
