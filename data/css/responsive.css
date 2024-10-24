@@ -93,6 +93,11 @@
 	.hgroup-right {
 		padding-right: 0;
 	}
+	.split {
+		width: 100%;
+		clear: both;
+		margin: 0;
+	}
 
 	/* Responsive Navigation */
 	.menu-toggle {
@@ -204,6 +209,12 @@
 		margin: 0;
 		padding-bottom: 20px;
 		width: 100%;
+	}
+	.split .one-half {
+		margin-left: 5.94%;
+	}
+	.split .one-half:first-of-type {
+		margin: 0;
 	}
 	#content .post {
 		padding-bottom: 40px;

@@ -1057,7 +1057,8 @@ height: 15px;
 }
 .one-half,
 .one-third,
-.one-fourth {
+.one-fourth,
+.split {
 	float: left;
 	margin: 0 0 0 2.97%;
 	padding-bottom: 30px;
@@ -1070,6 +1071,12 @@ height: 15px;
 }
 .one-fourth {
 	width: 22.02%;
+}
+.split {
+	width: 48.515%
+}
+.split:first-of-type {
+	margin: 0;
 }
 
 /* Sidebar */
