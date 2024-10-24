@@ -10,7 +10,7 @@ flags: notitle
 <p>Här finner du information om våra olika idrottssektioner.</p>
 <div class="widget widget_recent_work">
   <div class="column clearfix">
-    <div class="one-fourth">
+    <div class="one-fourth clearfix-half">
       <a title="" href="/atlet.html">
         <div class="paintoverlay">
           <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
@@ -20,7 +20,7 @@ flags: notitle
       <h3 class="custom-gallery-title"><a href="/atlet.html" title="">Atlet</a></h3>
       <p>Se information om Atletsektionen.</p>
     </div>
-    <div class="one-fourth clearfix-half">
+    <div class="one-fourth">
       <a href="https://faktningfalun.se" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
         <div class="paintoverlay">
           <img width="474" height="342" src="img/fm5k-474x342.webp" alt="" loading="lazy">
@@ -35,7 +35,7 @@ flags: notitle
       </a></h3>
       <p>Fortsätt till Fäktsektionens egna webbplats.</p>
     </div>
-    <div class="one-fourth">
+    <div class="one-fourth clearfix-half">
       <a href="https://www.facebook.com/kravmagadalarna" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
         <div class="paintoverlay">
           <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
@@ -50,7 +50,7 @@ flags: notitle
       </a></h3>
       <p>Fortsätt till Krav Maga-sektionens Facebook-sida.</p>
     </div>
-    <div class="one-fourth clearfix-half">
+    <div class="one-fourth">
       <a title="" href="/olskytte.html">
         <div class="paintoverlay">
           <img width="474" height="342" src="img/ol-skytte-474x342.webp" alt="" loading="lazy">
