@@ -5,6 +5,7 @@ keywords: styrelse, sektionsledning, ledamöter, ordförande, sekreterare, styre
 sideimages:
 flags: 
 
+<p>Kontaktpersoner för huvudstyrelsen är ordförande, kassör, och sekreterare.</p>
 <table>
   <!-- INOSYNC BEGIN -->
   <!-- INOSYNC END -->
