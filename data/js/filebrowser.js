@@ -29,6 +29,31 @@ $(document).ready(() => {
 	var list = new Array()
 	var formats = ['bin', 'jpg', 'gif', 'bmp', 'png', 'html', 'css', 'zip', 'iso', 'tiff', 'ico', 'psd', 'pdf', 'exe', 'rar', 'deb', 'swf', '7z', 'doc', 'docx', 'xls', 'xlsx', 'pptx', 'ppt', 'txt', 'php', 'js', 'c', 'cpp', 'torrent', 'sql', 'wmv', 'avi', 'mp4', 'mp3', 'wma', 'ogg', 'msg', 'wav', 'py', 'java', 'gzip', 'jpeg', 'raw', 'cmd', 'bat', 'sh', 'svg']
 
+	// Translate and add tooltips to column headers.
+	let sortName = ''
+	$('th a').each(function() {
+		let current = $(this).text()
+    if (current == ' ↓ ') {
+			$(this).attr('title', 'Sortera fallande efter ' + sortName.toLowerCase())
+		} else {
+			switch (current) {
+				case 'File Name':
+					sortName = 'Filnamn'
+					break
+				case 'File Size':
+					sortName = 'Filstorlek'
+					break
+				case 'Date':
+					sortName = 'Datum'
+					break
+				default:
+					sortName = current
+			}
+			$(this).attr('title', 'Sortera stigande efter ' + sortName.toLowerCase())
+			$(this).text(sortName)
+		}
+	})
+
 	// Scan all files in the directory, check the extensions and show the right MIME-type image.
 	$('td a').each(function() {
 		let fileExt = ""
