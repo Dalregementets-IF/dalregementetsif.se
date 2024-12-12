@@ -14,7 +14,7 @@ flags: notitle
       <a title="" href="/atlet.html">
         <div class="paintoverlay">
           <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
-          <img src="img/paintsplashborder-gallery-2.webp" alt="">
+          <div class="gallery-2"></div>
         </div>
       </a>
       <h3 class="custom-gallery-title"><a href="/atlet.html" title="">Atlet</a></h3>
@@ -24,7 +24,7 @@ flags: notitle
       <a href="https://faktningfalun.se" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
         <div class="paintoverlay">
           <img width="474" height="342" src="img/fm5k-474x342.webp" alt="" loading="lazy">
-          <img src="img/paintsplashborder-gallery-3.webp" alt="">
+          <div class="gallery-3"></div>
         </div>
       </a>
       <h3 class="custom-gallery-title"><a href="https://faktningfalun.se" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
@@ -39,7 +39,7 @@ flags: notitle
       <a href="https://www.facebook.com/kravmagadalarna" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
         <div class="paintoverlay">
           <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
-          <img src="img/paintsplashborder-gallery-2.webp" alt="">
+          <div class="gallery-2"></div>
         </div>
       </a>
       <h3 class="custom-gallery-title"><a href="https://www.facebook.com/kravmagadalarna" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
@@ -54,7 +54,7 @@ flags: notitle
       <a title="" href="/olskytte.html">
         <div class="paintoverlay">
           <img width="474" height="342" src="img/ol-skytte-474x342.webp" alt="" loading="lazy">
-          <img src="img/paintsplashborder-gallery-1.webp" alt="">
+          <div class="gallery-1"></div>
         </div>
       </a>
       <h3 class="custom-gallery-title"><a href="/olskytte.html" title="">OL-Skytte</a></h3>
@@ -68,7 +68,7 @@ flags: notitle
       <a href="/simning.html" title="">
         <div class="paintoverlay">
           <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
-          <img src="img/paintsplashborder-gallery-2.webp" alt="">
+          <div class="gallery-2"></div>
         </div>
       </a>
       <h3 class="custom-gallery-title"><a href="/simning.html" title="">Simning</a></h3>
@@ -78,7 +78,7 @@ flags: notitle
       <a href="/skidor.html" title="">
         <div class="paintoverlay">
           <img width="474" height="342" src="img/skidor-474x342.webp" alt="" loading="lazy">
-          <img src="img/paintsplashborder-gallery-3.webp" alt="">
+          <div class="gallery-3"></div>
         </div>
       </a>
       <h3 class="custom-gallery-title"><a href="/skidor.html" title="">Skidor</a></h3>
@@ -88,7 +88,7 @@ flags: notitle
       <a title="" href="/skidskytte.html">
         <div class="paintoverlay">
           <img width="474" height="342" src="img/skidskytte-474x342.webp" alt="" loading="lazy">
-          <img src="img/paintsplashborder-gallery-3.webp" alt="">
+          <div class="gallery-3"></div>
         </div>
       </a>
       <h3 class="custom-gallery-title"><a href="/skidskytte.html" title="">Skidskytte</a></h3>
@@ -98,7 +98,7 @@ flags: notitle
       <a title="" href="/tennis.html">
         <div class="paintoverlay">
           <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
-          <img src="img/paintsplashborder-gallery-1.webp" alt="">
+          <div class="gallery-1"></div>
         </div>
       </a>
       <h3 class="custom-gallery-title"><a href="/tennis.html" title="">Tennis</a></h3>
@@ -112,7 +112,7 @@ flags: notitle
       <a title="Triathlon" href="/triathlon.html">
         <div class="paintoverlay">
           <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
-          <img src="img/paintsplashborder-gallery-1.webp" alt="">
+          <div class="gallery-1"></div>
         </div>
       </a>
       <h3 class="custom-gallery-title"><a href="/triathlon.html" title="">Triathlon</a></h3>
