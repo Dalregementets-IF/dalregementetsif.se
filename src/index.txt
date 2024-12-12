@@ -7,116 +7,147 @@ flags: notitle
 
 <!-- INOSYNC BEGIN -->
 <!-- INOSYNC END -->
-<p>Här finner du information om våra olika idrottssektioner.</p>
-<div class="widget widget_recent_work">
-  <div class="column clearfix">
-    <div class="one-fourth clearfix-half">
-      <a title="" href="/atlet.html">
-        <div class="paintoverlay">
-          <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
-          <div class="gallery-2"></div>
-        </div>
-      </a>
-      <h3 class="custom-gallery-title"><a href="/atlet.html" title="">Atlet</a></h3>
-      <p>Se information om Atletsektionen.</p>
-    </div>
-    <div class="one-fourth">
-      <a href="https://faktningfalun.se" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
-        <div class="paintoverlay">
-          <img width="474" height="342" src="img/fm5k-474x342.webp" alt="" loading="lazy">
-          <div class="gallery-3"></div>
-        </div>
-      </a>
-      <h3 class="custom-gallery-title"><a href="https://faktningfalun.se" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
-        Fäktning & Modern Femkamp
-        <span class="icon external-link-icon">
-          <i class="fa fa-external-link" aria-hidden="true"></i>
-        </span>
-      </a></h3>
-      <p>Fortsätt till Fäktsektionens egna webbplats.</p>
-    </div>
-    <div class="one-fourth clearfix-half">
-      <a href="https://www.facebook.com/kravmagadalarna" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
-        <div class="paintoverlay">
-          <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
-          <div class="gallery-2"></div>
-        </div>
-      </a>
-      <h3 class="custom-gallery-title"><a href="https://www.facebook.com/kravmagadalarna" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
-        Krav Maga
-        <span class="icon external-link-icon">
-          <i class="fa fa-external-link" aria-hidden="true"></i>
-        </span>
-      </a></h3>
-      <p>Fortsätt till Krav Maga-sektionens Facebook-sida.</p>
-    </div>
-    <div class="one-fourth">
-      <a title="" href="/olskytte.html">
-        <div class="paintoverlay">
-          <img width="474" height="342" src="img/ol-skytte-474x342.webp" alt="" loading="lazy">
-          <div class="gallery-1"></div>
-        </div>
-      </a>
-      <h3 class="custom-gallery-title"><a href="/olskytte.html" title="">OL-Skytte</a></h3>
-      <p>Orientering, löpning och skytte! Se information om sektionen för OL-Skytte.</p>
-    </div>
+
+<div class="split">
+  <div class="shield">
+    <p>
+      Dalregementets Idrottsförening har till ändamål att genom utövning av
+      idrott verka för medlemmarnas fysiska och psykiska hälsa, sociala och
+      kulturella utveckling. Föreningen har militär anknytning, men är
+      sedan 2002 tillgänglig för alla och bedriver en bred idrottsverksamhet med
+      många grenar.
+    </p>
+    <p>
+      Föreningen bedriver tränings- och tävlingsverksamhet på elit- och
+      motionsnivå. Friskvård, med teknik-, konditions- och styrketräning.
+      Tillgång till träningsredskap och anläggningar, i en drogfri miljö. Social
+      gemenskap, med god sammanhållning och kamratskap. Föreningen består av en
+      huvudstyrelse och ett flertal sektioner.
+    </p>
   </div>
 </div>
-<div class="widget widget_recent_work">
-  <div class="column clearfix">
-    <div class="one-fourth">
-      <a href="/simning.html" title="">
-        <div class="paintoverlay">
-          <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
-          <div class="gallery-2"></div>
-        </div>
-      </a>
-      <h3 class="custom-gallery-title"><a href="/simning.html" title="">Simning</a></h3>
-      <p>Se information om simningen.</p>
-    </div>
-    <div class="one-fourth">
-      <a href="/skidor.html" title="">
-        <div class="paintoverlay">
-          <img width="474" height="342" src="img/skidor-474x342.webp" alt="" loading="lazy">
-          <div class="gallery-3"></div>
-        </div>
-      </a>
-      <h3 class="custom-gallery-title"><a href="/skidor.html" title="">Skidor</a></h3>
-      <p>Se information om Skidsektionen.</p>
-    </div>
-    <div class="one-fourth">
-      <a title="" href="/skidskytte.html">
-        <div class="paintoverlay">
-          <img width="474" height="342" src="img/skidskytte-474x342.webp" alt="" loading="lazy">
-          <div class="gallery-3"></div>
-        </div>
-      </a>
-      <h3 class="custom-gallery-title"><a href="/skidskytte.html" title="">Skidskytte</a></h3>
-      <p>Se information om Skidskyttesektionen.</p>
-    </div>
-    <div class="one-fourth">
-      <a title="" href="/tennis.html">
-        <div class="paintoverlay">
-          <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
-          <div class="gallery-1"></div>
-        </div>
-      </a>
-      <h3 class="custom-gallery-title"><a href="/tennis.html" title="">Tennis</a></h3>
-      <p>Se information om Tennissektionen.</p>
+
+<div class="split">
+  <div>
+  <div class="widget widget_recent_work">
+    <div class="column clearfix">
+      <div class="one-half">
+        <a title="" href="/atlet.html">
+          <div class="paintoverlay">
+            <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
+            <div class="gallery-2"></div>
+          </div>
+        </a>
+        <h3 class="custom-gallery-title"><a href="/atlet.html" title="">Atlet</a></h3>
+        <p>Se information om Atletsektionen.</p>
+      </div>
+      <div class="one-half">
+        <a href="https://faktningfalun.se" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
+          <div class="paintoverlay">
+            <img width="474" height="342" src="img/fm5k-474x342.webp" alt="" loading="lazy">
+            <div class="gallery-3"></div>
+          </div>
+        </a>
+        <h3 class="custom-gallery-title"><a href="https://faktningfalun.se" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
+          Fäktning & Modern Femkamp
+          <span class="icon external-link-icon">
+            <i class="fa fa-external-link" aria-hidden="true"></i>
+          </span>
+        </a></h3>
+        <p>Fortsätt till Fäktsektionens egna webbplats.</p>
+      </div>
     </div>
   </div>
-</div>
-<div class="widget widget_recent_work">
-  <div class="column clearfix">
-    <div class="one-fourth">
-      <a title="Triathlon" href="/triathlon.html">
-        <div class="paintoverlay">
-          <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
-          <div class="gallery-1"></div>
-        </div>
-      </a>
-      <h3 class="custom-gallery-title"><a href="/triathlon.html" title="">Triathlon</a></h3>
-      <p>Se information om Triathlon.</p>
+  <div class="widget widget_recent_work">
+    <div class="column clearfix">
+      <div class="one-half">
+        <a href="https://www.facebook.com/kravmagadalarna" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
+          <div class="paintoverlay">
+            <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
+            <div class="gallery-2"></div>
+          </div>
+        </a>
+        <h3 class="custom-gallery-title"><a href="https://www.facebook.com/kravmagadalarna" title="Extern sida öppnas i ny flik eller nytt fönster" target="_blank">
+          Krav Maga
+          <span class="icon external-link-icon">
+            <i class="fa fa-external-link" aria-hidden="true"></i>
+          </span>
+        </a></h3>
+        <p>Fortsätt till Krav Maga-sektionens Facebook-sida.</p>
+      </div>
+      <div class="one-half">
+        <a title="" href="/olskytte.html">
+          <div class="paintoverlay">
+            <img width="474" height="342" src="img/ol-skytte-474x342.webp" alt="" loading="lazy">
+            <div class="gallery-1"></div>
+          </div>
+        </a>
+        <h3 class="custom-gallery-title"><a href="/olskytte.html" title="">OL-Skytte</a></h3>
+        <p>Orientering, löpning och skytte! Se information om sektionen för OL-Skytte.</p>
+      </div>
     </div>
+  </div>
+  <div class="widget widget_recent_work">
+    <div class="column clearfix">
+      <div class="one-half">
+        <a href="/simning.html" title="">
+          <div class="paintoverlay">
+            <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
+            <div class="gallery-2"></div>
+          </div>
+        </a>
+        <h3 class="custom-gallery-title"><a href="/simning.html" title="">Simning</a></h3>
+        <p>Se information om simningen.</p>
+      </div>
+      <div class="one-half">
+        <a href="/skidor.html" title="">
+          <div class="paintoverlay">
+            <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
+            <div class="gallery-3"></div>
+          </div>
+        </a>
+        <h3 class="custom-gallery-title"><a href="/skidor.html" title="">Skidor</a></h3>
+        <p>Se information om Skidsektionen.</p>
+      </div>
+    </div>
+  </div>
+  <div class="widget widget_recent_work">
+    <div class="column clearfix">
+      <div class="one-half">
+        <a title="" href="/skidskytte.html">
+          <div class="paintoverlay">
+            <img width="474" height="342" src="img/skidskytte-474x342.webp" alt="" loading="lazy">
+            <div class="gallery-3"></div>
+          </div>
+        </a>
+        <h3 class="custom-gallery-title"><a href="/skidskytte.html" title="">Skidskytte</a></h3>
+        <p>Se information om Skidskyttesektionen.</p>
+      </div>
+      <div class="one-half">
+        <a title="" href="/tennis.html">
+          <div class="paintoverlay">
+            <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
+            <div class="gallery-1"></div>
+          </div>
+        </a>
+        <h3 class="custom-gallery-title"><a href="/tennis.html" title="">Tennis</a></h3>
+        <p>Se information om Tennissektionen.</p>
+      </div>
+    </div>
+  </div>
+  <div class="widget widget_recent_work">
+    <div class="column clearfix">
+      <div class="one-half">
+        <a title="Triathlon" href="/triathlon.html">
+          <div class="paintoverlay">
+            <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
+            <div class="gallery-1"></div>
+          </div>
+        </a>
+        <h3 class="custom-gallery-title"><a href="/triathlon.html" title="">Triathlon</a></h3>
+        <p>Se information om Triathlon.</p>
+      </div>
+    </div>
+  </div>
   </div>
 </div>
