@@ -54,6 +54,8 @@ html:has(option[name="theme"][value="dark"]:checked) { color-scheme: dark; }
 	--shading: light-dark(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
 	--border-color: light-dark(var(--grey-medium), #000);
 	--border-light-color: light-dark(var(--grey-medium), rgba(255, 255, 255, 0.1));
+	--input-area-color: light-dark(var(--grey-light), var(--blue-medium));
+	--horizontal-rule-color: light-dark(var(--shading), var(--yellow-medium));
 
 	--highlight-color: light-dark(var(--yellow-light), var(--blue-medium));
 	--highlight-text-color: light-dark(var(--text-color), var(--yellow-medium));
@@ -339,7 +341,7 @@ h6 {
 
 /* Horizontal Line */
 hr {
-	border-color: rgba(0, 0, 0, 0.1);
+	border-color: var(--horizontal-rule-color);
 	border-style: solid none none;
 	border-width: 1px 0 0;
 	height: 0;
@@ -349,7 +351,7 @@ hr {
 /* Text Elements */
 p, td, li, span {
 	letter-spacing: .02rem;
-	font-size: 120%;
+	font-size: 16px;
 }
 p {
 	line-height: 1.6;
@@ -375,6 +377,9 @@ kbd {
 	font-family: "Courier 10 Pitch", Courier, monospace;
 	color: var(--highlight-text-color);
 	background-color: var(--highlight-color);
+}
+code,
+kbd {
 	padding-top: 5px;
 }
 abbr,
@@ -422,6 +427,12 @@ blockquote {
 	border-style: solid;
 	border-width: 0 0 0 4px;
 	border-color: var(--quote-flare-color);
+}
+blockquote p {
+	line-height: inherit;
+}
+blockquote p:last-of-type {
+	margin-bottom: 0;
 }
 blockquote em,
 blockquote i,
@@ -478,7 +489,7 @@ textarea {
 	padding: 10px;
 	border: 1px solid rgba(0, 0, 0, 0.05);
 	width: 100%;
-	background-color: #f9f9f9;
+	background-color: var(--input-area-color);
 	border-radius: 3px;
 }
 input:focus,
