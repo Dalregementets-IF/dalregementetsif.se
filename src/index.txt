@@ -102,7 +102,7 @@ flags: notitle
       <div class="one-half">
         <a href="/skidor.html" title="">
           <div class="paintoverlay">
-            <img width="474" height="342" src="img/nopicture.webp" alt="" loading="lazy">
+            <img width="474" height="342" src="img/skidor-474x342.webp" alt="" loading="lazy">
             <div class="gallery-3"></div>
           </div>
         </a>
