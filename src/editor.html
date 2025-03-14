@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="sv-SE">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="color-scheme" content="dark light">
+    <title>Editor</title>
+    <!--[if IE]><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><![endif]-->
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel='stylesheet' href='/css/interface.style.css' type='text/css' media='all'>
+    <link rel='stylesheet' href='/css/font-awesome.css' type='text/css' media='all'>
+    <link rel='stylesheet' href='/css/responsive.css' type='text/css' media='all'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=PT+Sans%3A400%2C700italic%2C700%2C400italic&#038;ver=5.6.8' type='text/css' media='all'>
+<style>
+#control-bar {
+    background-color: grey;
+    padding: 5px;
+    border-bottom: 1px solid #555;
+}
+#editor {
+    display: flex;
+}
+#edit-pane,
+#view-pane {
+    flex: 1;
+    height: calc(100vh - 35px);
+    overflow: scroll;
+}
+#edit-pane .ribbon {
+    margin: 5px 10px 5px 10px;
+}
+#edit-pane .ribbon .right {
+    float: right;
+}
+#input {
+    min-height: 600px;
+    resize: none;
+    margin: 0 10px 10px 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 45px);
+}
+#control-bar button:nth-of-type(4) {
+    display: none;
+}
+
+#help-modal {
+	min-width: 300px;
+	max-width: 800px;
+	background: var(--fc-page-bg-color);
+	color: var(--fc-text-color);
+	border: 1px solid var(--fc-border-color);
+	box-shadow: 0 1px 2px 0 var(--fc-shadow);
+	border-radius: 5px;
+}
+#help-modal button {
+	border: none;
+	margin: 0 auto;
+	color: var(--button-text-color);
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	padding: 9px 20px 9px;
+	border-radius: 3px;
+	background-color: var(--button-color);
+	transition: all 0.3s ease-out;
+}
+#help-modal button:hover {
+	background-color: var(--button-hover-color);
+	border-color: var(--button-hover-color);
+}
+#help-modal h3 {
+	border-bottom: 3px solid var(--fc-flare-color);
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1078px) {
+    #editor {
+        display: block;
+    }
+    #control-bar button:nth-of-type(1),
+    #control-bar button:nth-of-type(2),
+    #control-bar button:nth-of-type(3) {
+        display: none;
+    }
+    #control-bar button:nth-of-type(4) {
+        display: inline-block;
+    }
+}
+</style>
+  </head>
+  <body>
+
+    <dialog id="help-modal">
+      <h3>Hjälp</h3>
+      <p>
+      Filer som läggs i dropboxens <code>14 WWW/Filer</code> kan enkelt länkas
+      till som <code>/Filer/exempel.jpg</code> eller i en underkatalog t.ex.
+      <code>/Filer/Atlet/exempel.jpg</code>.
+      </p>
+      <table>
+        <tr><th>Effekt</th><th>Markdown</th><th>HTML</th></tr>
+        <tr><td><strong>Fet text</strong></td><td>__text__</td><td>&lt;strong&gt;text&lt;/strong&gt;</td></tr>
+        <tr><td><em>Kursiv text</em></td><td>_text_</td><td>&lt;em&gt;text&lt;/em&gt;</td></tr>
+        <tr><td><s>Genomstruken text</s></td><td></td><td>&lt;s&gt;text&lt;/s&gt;</td></tr>
+        <tr><td>&bull; lista<br>&bull; lista</td><td>* listpost<br>* listpost</td><td>&lt;ul&gt<br>&lt;li&gt;listpost&lt;/li&gt<br>&lt;li&gt;listpost&lt;/li&gt<br>&lt;/ul&gt;</td></tr>
+      </table>
+      <button autofocus onclick="hideHelp();">Stäng</button>
+    </dialog>
+
+    <div id="control-bar">
+      <button onclick="hideViewPane();">Endast editor</button>
+      <button onclick="hideEditPane();">Förhandsgranska</button>
+      <button onclick="resetPanes();">Återställ vy</button>
+      <button onclick="togglePanes();">Byt vy</button>
+      <button onclick="download();" title="Spara text som fil"><i class="fa fa-solid fa-download"></i></button>
+    </div>
+    <div id="editor">
+      <div id="edit-pane">
+        <div class="ribbon">
+          <button onclick='link();' title="Infoga länk"><i class="fa fa-solid fa-link"></i></button>
+          <button onclick='image();' title="Infoga bild"><i class="fa fa-solid fa-image"></i></button>
+          <button onclick='list();' title="Infoga lista"><i class="fa fa-solid fa-list"></i></button>
+          <button onclick='table();' title="Infoga tabell"><i class="fa fa-solid fa-table"></i></button>
+          <button onclick='comment();' title="Infoga osynlig kommentar"><i class="fa fa-solid fa-comment"></i></button>
+          <button onclick='showHelp();' class="right" title="Visa hjälp"><i class="fa fa-solid fa-question-circle"></i></button>
+        </div>
+<textarea id="input">
+<!-- MARKDOWN -->
+</textarea>
+      </div>
+      <div id="view-pane">
+
+<!-- HEADER -->
+      <div id="view"></div>
+<!-- FOOTER -->
+
+      </div>
+    </div>
+    <script src="/js/editor.js" type="text/javascript"></script>
+  </body>
+</html>

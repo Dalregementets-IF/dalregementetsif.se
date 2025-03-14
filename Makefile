@@ -18,6 +18,7 @@ help:
 	$(info make build|deploy|clean)
 
 build: $(patsubst $(SRC)/%.txt,build/%.html,$(PAGES)) \
+	build/editor.html \
 	build/img \
 	build/js/calendar.js \
 	build/filebrowser-header.html \
@@ -48,6 +49,21 @@ build/filebrowser-header.html: $(addprefix $(TMPL)/,$(addsuffix .html,header))
 build/filebrowser-footer.html: $(addprefix $(TMPL)/,$(addsuffix .html,footer))
 	mkdir -p build
 	cp $(TMPL)/footer.html $@
+
+build/editor.html: $(SRC)/editor.html $(SRC)/editor.md $(addprefix $(TMPL)/,$(addsuffix .html,header banner footer))
+	mkdir -p build
+	export PAGE_TITLE="Förhandsgranskning"; \
+	export TITLE="$(SITE_TITLE)"; \
+	export KEYWORDS="$(KEYWORDS_BASE)"; \
+	tail -n+22 $(TMPL)/header.html > $@-head.tmp; \
+	head -n-1 $(TMPL)/footer.html > $@-foot.tmp; \
+	sed -i -e 's/a href=".*"/a href="#"/' $@-head.tmp; \
+	sed -i -e 's/a href=".*"/a href="#"/' $@-foot.tmp; \
+	sed -e '/<!-- HEADER -->/{r $@-head.tmp' -e 'd}' $(SRC)/editor.html > $@.tmp; \
+	sed -i -e '/<!-- MARKDOWN -->/{r$(SRC)/editor.md' -e 'd}' $@.tmp; \
+	sed -i -e '/<!-- FOOTER -->/{r $@-foot.tmp' -e 'd}' $@.tmp; \
+	envsubst < $@.tmp > $@; \
+	rm $@.tmp $@-head.tmp $@-foot.tmp
 
 build/img:
 	sh img.sh $(IMG)

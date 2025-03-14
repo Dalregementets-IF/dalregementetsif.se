@@ -1126,23 +1126,23 @@ details > math {
 }
 
 /*  */
-#content table {
+table {
 	border-collapse: collapse;
 }
-#content table tr {
+table tr {
 	border: solid 1px var(--fc-border-color);
 }
-#content table tr th,
-#content table tr td {
+table tr th,
+table tr td {
 	border: 0;
 }
-#content table tr:nth-child(odd) {
+table tr:nth-child(odd) {
 	background: var(--table-row-odd-color);
 }
-#content table tr:nth-child(even) {
+table tr:nth-child(even) {
 	background: var(--table-row-even-color);
 }
-#content table thead tr:first-child {
+table thead tr:first-child {
 	background: var(--table-header-color);
 }
 
